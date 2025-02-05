@@ -1,5 +1,3 @@
-#!/usr/bin/env python3
-
 from shoe import Shoe
 
 import io
@@ -37,6 +35,3 @@ class TestShoe:
         stan_smith = Shoe("Adidas", 9)
         stan_smith.cobble()
         assert(stan_smith.condition == "New")
-        
-        
-   
